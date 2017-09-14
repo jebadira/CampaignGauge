@@ -1,0 +1,26 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "a78faaad-0ef8-4af5-a030-6ba5a532d54e",
+  "alias": "CampaignGaugeWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "a78faaad-0ef8-4af5-a030-6ba5a532d54e",
+    "group": { "default": "Under Development" },
+    "title": { "default": "CampaignGauge" },
+    "description": { "default": "Webpart for campaign stats" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "CampaignGauge"
+    }
+  }]
+}

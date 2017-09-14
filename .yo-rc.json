@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.2.0",
+    "libraryName": "campaigngauge",
+    "libraryId": "093ba5c5-aa75-4810-8120-3cf7a0293ae8",
+    "environment": "spo"
+  }
+}

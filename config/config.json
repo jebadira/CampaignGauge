@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "campaign-gauge-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/campaignGauge/CampaignGaugeWebPart.js",
+          "manifest": "./src/webparts/campaignGauge/CampaignGaugeWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CampaignGaugeWebPartStrings": "lib/webparts/campaignGauge/loc/{locale}.js"
+  }
+}
