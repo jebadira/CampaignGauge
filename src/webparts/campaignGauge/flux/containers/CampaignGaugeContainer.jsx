@@ -59,7 +59,7 @@ export default class CampaignGaugeContainer extends React.PureComponent{
                 <div>
                     <img style={{width: "100%"}} src={this.props.bannerUrl} />
                 </div>
-                <div style={{maxHeight:475, overflow: "hidden"}}>
+                <div style={{maxHeight:475, overflow: "hidden", marginTop: 10, textAlign : "center"}}>
                     <a href={this.props.imageLink} target="_blank">
                     {this.state.imageUri ? <img src={this.state.imageUri} style={{maxHeight:540, width: "100%", maxWidth: 350}} /> : null}
                     </a>
